@@ -89,9 +89,9 @@ Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinatio
 --, (RollingPeopleVaccinated/population)*100
 From PortfolioProject..CovidDeaths dea
 Join PortfolioProject..CovidVaccinations vac
-	On dea.location = vac.location
-	and dea.date = vac.date
-where dea.continent is not null 
+        On dea.location = vac.location
+        and dea.date = vac.date
+where dea.continent is not null;
 order by 2,3
 
 
@@ -105,9 +105,9 @@ Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinatio
 --, (RollingPeopleVaccinated/population)*100
 From PortfolioProject..CovidDeaths dea
 Join PortfolioProject..CovidVaccinations vac
-	On dea.location = vac.location
-	and dea.date = vac.date
-where dea.continent is not null 
+        On dea.location = vac.location
+        and dea.date = vac.date
+where dea.continent is not null;
 --order by 2,3
 )
 Select *, (RollingPeopleVaccinated/Population)*100
@@ -153,6 +153,8 @@ Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinatio
 --, (RollingPeopleVaccinated/population)*100
 From PortfolioProject..CovidDeaths dea
 Join PortfolioProject..CovidVaccinations vac
-	On dea.location = vac.location
-	and dea.date = vac.date
-where dea.continent is not null 
+        On dea.location = vac.location
+        and dea.date = vac.date
+where dea.continent is not null;
+
+-- View created to simplify future queries

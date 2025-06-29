@@ -1,0 +1,9 @@
+# Ignore Jupyter notebooks and dataset files
+*.ipynb
+*.xlsx
+*.pdf
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+__pycache__/

@@ -1,7 +1,8 @@
 # 🧹 Nashville Housing – Data-Cleaning in T-SQL
 
 This folder holds one SQL script that converts the raw **`NashvilleHousing`** table
-into an analytics-ready dataset.
+into an analytics-ready dataset. The Excel data file is not tracked in this
+repository, so download the dataset separately before running the script.
 
 | Step | Transformation | Key SQL |
 |------|----------------|---------|
