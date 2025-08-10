@@ -1,4 +1,6 @@
-data/raw/
+data/raw/*
+!data/raw/historic_property_data.csv
+!data/raw/predict_property_data.csv
 outputs/
 reports/figures/
 .Rhistory
