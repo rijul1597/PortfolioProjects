@@ -1,0 +1,6 @@
+data/raw/
+outputs/
+reports/figures/
+.Rhistory
+.Rproj.user/
+.DS_Store
