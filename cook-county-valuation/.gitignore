@@ -1,8 +1,14 @@
+# R / OS junk
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+
+# Generated outputs
+outputs/
+
+# Ignore everything else in data/raw, but keep these two CSVs
 data/raw/*
 !data/raw/historic_property_data.csv
 !data/raw/predict_property_data.csv
-outputs/
-reports/figures/
-.Rhistory
-.Rproj.user/
-.DS_Store
